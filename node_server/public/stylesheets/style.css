@@ -1,0 +1,30 @@
+/** { margin: 0; padding: 0; }*/
+
+/*body { 
+  margin-top: 500px;
+  background: url(../images/glasses.jpeg);
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+*/
+html { 
+  background: url(../images/glasses.jpeg); 
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-attachment: fixed;*/
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  transition: background 0.5s linear;
+}
+
+a {
+  color: #00B7FF;
+}
